@@ -1,0 +1,1 @@
+document.querySelectorAll('.links a').forEach(a=>a.addEventListener('click',()=>{document.querySelectorAll('.links a').forEach(x=>x.classList.remove('active'));a.classList.add('active')}));
